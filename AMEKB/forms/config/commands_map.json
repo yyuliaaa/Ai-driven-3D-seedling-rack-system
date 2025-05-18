@@ -1,0 +1,19 @@
+{
+    "PartDesign.Pad": {
+        "module": "PartDesign",
+        "method": "AddPad",
+        "required_params": ["sketch", "length"],
+        "defaults": {
+            "direction": "normal",
+            "is_thin": false
+        }
+    },
+    "PartDesign.Pocket": {
+        "module": "PartDesign",
+        "method": "AddPocket",
+        "required_params": ["sketch", "depth"],
+        "defaults": {
+            "direction": "normal"
+        }
+    }
+}

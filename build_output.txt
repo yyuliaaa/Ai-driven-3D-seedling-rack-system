@@ -1,0 +1,11 @@
+
+Microsoft Visual Studio 2019 版本 16.11.37。
+版权所有 (C) Microsoft Corp。保留所有权利。
+D:\BachelorD\AR\CATIA_AI\vb_py\1111\1111.vbproj : error  : 未能加载项目文件。未能找到路径“D:\BachelorD\AR\CATIA_AI\vb_py\1111\1111.vbproj”的一部分。  D:\BachelorD\AR\CATIA_AI\vb_py\1111\1111.vbproj
+
+
+未能正确加载解决方案中的一个或多个项目。
+有关详细信息，请参见“输出”窗口。已启动生成…
+1>------ 已启动生成: 项目: 农业机械装备知识库系统, 配置: Release Any CPU ------
+1>  农业机械装备知识库系统 -> D:\BachelorD\AR\农业机械装备知识库系统\农业机械装备知识库系统\bin\Release\农业机械装备知识库系统.exe
+========== 生成: 成功 1 个，失败 0 个，最新 0 个，跳过 0 个 ==========

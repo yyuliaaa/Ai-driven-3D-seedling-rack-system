@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>升级版CATIA AI交互</title>
+    <style>
+        /* 全局样式 */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        /* 聊天容器样式 */
+        .chat-container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 1000px;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        /* 聊天框样式 */
+        .chat-box {
+            flex: 1;
+            overflow-y: auto;
+            border: 1px solid #ddd;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            font-size: 14px;
+            max-height: 600px;
+        }
+
+        /* 输入框样式 */
+        .input-box {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            font-size: 14px;
+        }
+
+        /* 发送按钮样式 */
+        .send-button {
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        /* 按钮悬停效果 */
+        .send-button:hover {
+            background-color: #0056b3;
+        }
+
+        /* 消息样式 */
+        .message {
+            margin: 5px 0;
+            padding: 5px;
+            border-radius: 5px;
+        }
+
+        /* 用户消息样式 */
+        .user-message {
+            text-align: right;
+            color: #333;
+            background-color: #e1ffc1;
+        }
+
+        /* AI 消息样式 */
+        .ai-message {
+            text-align: left;
+            color: #5e5e5e;
+            background-color: #f1f1f1;
+        }
+
+        /* 分隔线样式 */
+        .divider {
+            border-bottom: 1px solid #ddd;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="chat-container">
+        <h2>升级版CATIA AI交互</h2>
+        <div class="chat-box" id="chat-box"></div>
+        <input type="text" class="input-box" id="input-box" placeholder="请输入您的问题或指令">
+        <button class="send-button" onclick="sendMessage()">发送</button>
+    </div>
+
+    <script>
+        const chatBox = document.getElementById('chat-box');
+        const inputBox = document.getElementById('input-box');
+
+        function sendMessage() {
+            const userInput = inputBox.value.trim();
+            if (!userInput) {
+                alert('请输入内容');
+                return;
+            }
+
+            // 显示用户消息
+            const userMessage = document.createElement('div');
+            userMessage.className = 'message user-message';
+            userMessage.innerHTML = `<strong>用户:</strong> ${userInput}`;
+            chatBox.appendChild(userMessage);
+
+            // 添加分隔线
+            const divider = document.createElement('div');
+            divider.className = 'divider';
+            chatBox.appendChild(divider);
+
+            // 发送请求到后端
+            fetch('/process_input', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ user_input: userInput })
+            })
+            .then(response => response.json())
+            .then(data => {
+                // 显示 AI 消息
+                const aiMessage = document.createElement('div');
+                aiMessage.className = 'message ai-message';
+                aiMessage.innerHTML = `<strong>AI:</strong> ${data.response}`;
+                chatBox.appendChild(aiMessage);
+
+                // 添加分隔线
+                const divider = document.createElement('div');
+                divider.className = 'divider';
+                chatBox.appendChild(divider);
+
+                // 自动滚动到最新消息
+                chatBox.scrollTop = chatBox.scrollHeight;
+            })
+            .catch(error => {
+                const errorMessage = document.createElement('div');
+                errorMessage.className = 'message ai-message';
+                errorMessage.innerHTML = `<strong>AI:</strong> 抱歉，发生了一个错误。`;
+                chatBox.appendChild(errorMessage);
+
+                // 添加分隔线
+                const divider = document.createElement('div');
+                divider.className = 'divider';
+                chatBox.appendChild(divider);
+
+                // 自动滚动到最新消息
+                chatBox.scrollTop = chatBox.scrollHeight;
+            });
+
+            inputBox.value = ''; // 清空输入框
+        }
+
+        // 确保聊天框在加载时自动滚动到最新消息
+        chatBox.scrollTop = chatBox.scrollHeight;
+    </script>
+</body>
+</html>

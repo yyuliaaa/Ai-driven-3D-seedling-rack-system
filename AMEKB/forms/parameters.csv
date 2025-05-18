@@ -1,0 +1,26 @@
+parameter,description,options,required
+N_layer,层数,整数,是
+W_tray,托盘宽度,浮点数,否
+N_row,托盘行数,整数,是
+N_col,托盘列数,整数,是
+Pavilion_Height,棚高,浮点数,是
+Venue_Max_Width,场地最大宽度,浮点数,是
+Ventilation_Requirement,通风需求,Strong/Medium/Low,是
+Entry_Direction,进苗方式,Single Side/Double Side,是
+Management_Method,管理方式,Manual Handling/Semi-Automatic Conveying/Fully Automatic Cultivation,是
+Beam_Type,横梁类型,字符串,是
+W_gap,间隙宽度,浮点数,否
+H_base,基础高度,浮点数,否
+H_each,每层高度,浮点数,否
+L_base,基础长度,浮点数,否
+L_tray,托盘长度,浮点数,否
+Vent_Layout,风道布置,double-sided/single-sided,是
+Slide_Type,滑轨类型,标准/加强/无,是
+Usage_Place,使用场所,温室大棚/现代育苗工厂/简易遮阳棚,否
+Installation_Method,安装方式,固定式/可拆卸式/可移动轮式,否
+Operation_Cycle,作业周期,短期集中出苗/高频育秧轮作/低频长苗期,否
+Ventilation_Condition,通风条件,自然通风/侧窗送风/风道强制送风,否
+Space_Layout,空间布局,参数组,否
+Environment_Level,环境等级,潮湿高腐蚀/温和干燥/低温霜冻等,否
+Ventilation_Configuration,风道配置,左风道/双风道/顶风道,否
+Ventilation_Requirement,通风要求,强/中/弱,否

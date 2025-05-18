@@ -1,0 +1,372 @@
+2025-02-22 11:32:38 | INFO | 已连接到运行中的CATIA实例
+2025-02-22 11:32:57 | ERROR | 执行失败: <unknown>.Part
+2025-02-22 11:34:01 | INFO | 已连接到运行中的CATIA实例
+2025-02-22 11:34:05 | ERROR | 执行失败: <unknown>.Part
+2025-02-22 11:34:59 | INFO | 已连接到运行中的CATIA实例
+2025-02-22 11:35:03 | ERROR | 执行失败: <unknown>.Part
+2025-02-22 11:38:36 | INFO | 已连接到运行中的CATIA实例
+2025-02-22 11:38:41 | ERROR | 执行失败: 未实现的操作: PartDesign.Extrusion
+2025-02-22 11:38:53 | ERROR | 执行失败: 未实现的操作: PartDesign.Extrusion
+2025-02-22 11:40:26 | INFO | 已连接到运行中的CATIA实例
+2025-02-22 11:40:32 | ERROR | 创建拉伸特征失败: CreatePoint.X
+2025-02-22 11:40:42 | ERROR | 创建拉伸特征失败: 'width'
+2025-02-22 11:42:07 | INFO | 已连接到运行中的CATIA实例
+2025-02-22 11:42:10 | ERROR | 创建拉伸特征失败: CreatePoint.X
+2025-02-22 11:42:10 | ERROR | 执行失败: CreatePoint.X
+2025-02-22 11:42:57 | INFO | 已连接到运行中的CATIA实例
+2025-02-22 11:43:03 | ERROR | 创建拉伸特征失败: <unknown>.Shapes
+2025-02-22 11:43:03 | ERROR | 执行失败: <unknown>.Shapes
+2025-02-22 11:43:17 | INFO | 已连接到运行中的CATIA实例
+2025-02-22 11:43:19 | ERROR | 创建拉伸特征失败: <unknown>.Shapes
+2025-02-22 11:43:19 | ERROR | 执行失败: <unknown>.Shapes
+2025-02-22 11:43:48 | INFO | 已连接到运行中的CATIA实例
+2025-02-22 11:46:45 | INFO | 已连接到运行中的CATIA实例
+2025-02-22 11:46:58 | ERROR | 获取Part对象失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-02-22 11:46:58 | ERROR | COM错误: 方法 ActiveDocument 失败
+2025-02-22 11:46:58 | ERROR | 未处理的COM错误: 方法 ActiveDocument 失败
+2025-02-22 11:46:58 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-02-25 12:37:07 | INFO | 已连接到运行中的CATIA实例
+2025-02-25 12:40:34 | INFO | 已连接到运行中的CATIA实例
+2025-02-25 13:35:59 | INFO | 已连接到运行中的CATIA实例
+2025-04-04 11:28:00 | INFO | 已连接到运行中的CATIA实例
+2025-04-04 11:28:49 | ERROR | API返回非标准JSON: ```json
+{
+  "operation": "PartDesign.Cylinder",
+  "parameters": {
+    "radius": 5,
+    "height": 10,
+    "axis": "Z"
+  }
+}
+```
+2025-04-04 11:28:49 | ERROR | 执行失败: 命令解析失败，请重新描述需求
+2025-04-04 11:34:05 | ERROR | 执行失败: 请输入CATIA相关的建模或设计指令
+2025-04-04 11:37:27 | INFO | 已连接到运行中的CATIA实例
+2025-04-04 11:37:32 | ERROR | API请求失败: 403 Client Error: Forbidden for url: https://api.siliconflow.cn/v1/chat/completions
+2025-04-04 11:37:32 | ERROR | 执行失败: 自然语言处理服务不可用
+2025-04-04 11:37:38 | ERROR | API请求失败: 403 Client Error: Forbidden for url: https://api.siliconflow.cn/v1/chat/completions
+2025-04-04 11:37:38 | ERROR | 执行失败: 自然语言处理服务不可用
+2025-04-04 11:37:40 | ERROR | API请求失败: 403 Client Error: Forbidden for url: https://api.siliconflow.cn/v1/chat/completions
+2025-04-04 11:37:40 | ERROR | 执行失败: 自然语言处理服务不可用
+2025-04-04 11:37:42 | ERROR | API请求失败: 403 Client Error: Forbidden for url: https://api.siliconflow.cn/v1/chat/completions
+2025-04-04 11:37:42 | ERROR | 执行失败: 自然语言处理服务不可用
+2025-04-04 11:37:47 | INFO | 已连接到运行中的CATIA实例
+2025-04-04 11:40:51 | ERROR | 创建拉伸特征失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:40:51 | ERROR | COM错误: 方法 Update 失败
+2025-04-04 11:40:51 | ERROR | 未处理的COM错误: 方法 Update 失败
+2025-04-04 11:40:51 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:41:12 | ERROR | 创建拉伸特征失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:41:12 | ERROR | COM错误: 方法 Update 失败
+2025-04-04 11:41:12 | ERROR | 未处理的COM错误: 方法 Update 失败
+2025-04-04 11:41:12 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:41:18 | ERROR | 创建拉伸特征失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:41:18 | ERROR | COM错误: 方法 Update 失败
+2025-04-04 11:41:18 | ERROR | 未处理的COM错误: 方法 Update 失败
+2025-04-04 11:41:18 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:41:41 | ERROR | 创建拉伸特征失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:41:41 | ERROR | COM错误: 方法 Update 失败
+2025-04-04 11:41:41 | ERROR | 未处理的COM错误: 方法 Update 失败
+2025-04-04 11:41:41 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:42:06 | ERROR | 创建拉伸特征失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:42:06 | ERROR | COM错误: 方法 Update 失败
+2025-04-04 11:42:06 | ERROR | 未处理的COM错误: 方法 Update 失败
+2025-04-04 11:42:06 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:42:20 | ERROR | 创建拉伸特征失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:42:20 | ERROR | COM错误: 方法 Update 失败
+2025-04-04 11:42:20 | ERROR | 未处理的COM错误: 方法 Update 失败
+2025-04-04 11:42:20 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:42:26 | INFO | 已连接到运行中的CATIA实例
+2025-04-04 11:42:32 | ERROR | 创建拉伸特征失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:42:32 | ERROR | COM错误: 方法 Update 失败
+2025-04-04 11:42:32 | ERROR | 未处理的COM错误: 方法 Update 失败
+2025-04-04 11:42:32 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:42:44 | ERROR | 创建拉伸特征失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:42:44 | ERROR | COM错误: 方法 Update 失败
+2025-04-04 11:42:44 | ERROR | 未处理的COM错误: 方法 Update 失败
+2025-04-04 11:42:44 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAPart', '方法 Update 失败', None, 0, -2147467259), None)
+2025-04-04 11:43:26 | ERROR | 获取Part对象失败: (-2147023174, 'RPC 服务器不可用。', None, None)
+2025-04-04 11:43:26 | ERROR | 执行失败: 'NoneType' object is not subscriptable
+2025-04-04 11:43:31 | INFO | 已连接到运行中的CATIA实例
+2025-04-04 11:43:35 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:12:45 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:13:08 | ERROR | 执行失败: 请输入CATIA相关的建模或设计指令
+2025-04-11 17:16:03 | ERROR | 执行失败: 未实现的操作: PartDesign.CircularCavity
+2025-04-11 17:16:18 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:16:23 | ERROR | 获取Part对象失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:16:23 | ERROR | COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:16:23 | ERROR | 未处理的COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:16:23 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:16:33 | ERROR | 获取Part对象失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:16:33 | ERROR | COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:16:33 | ERROR | 未处理的COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:16:33 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:19:01 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:19:15 | ERROR | 获取Part对象失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:19:15 | ERROR | COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:19:15 | ERROR | 未处理的COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:19:15 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:19:23 | ERROR | 获取Part对象失败: (-2147023174, 'RPC 服务器不可用。', None, None)
+2025-04-11 17:19:23 | ERROR | 执行失败: 'NoneType' object is not subscriptable
+2025-04-11 17:19:41 | ERROR | 获取Part对象失败: (-2147023174, 'RPC 服务器不可用。', None, None)
+2025-04-11 17:19:41 | ERROR | 执行失败: 'NoneType' object is not subscriptable
+2025-04-11 17:19:48 | ERROR | 获取Part对象失败: (-2147023174, 'RPC 服务器不可用。', None, None)
+2025-04-11 17:19:48 | ERROR | 执行失败: 'NoneType' object is not subscriptable
+2025-04-11 17:20:50 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:24:21 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:24:39 | ERROR | 获取Part对象失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:24:39 | ERROR | COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:24:39 | ERROR | 未处理的COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:24:39 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:24:43 | ERROR | API返回非标准JSON: {
+  "operation": "PartDesign.Pad",
+  "parameters": {
+    "sketch_plane": "XY",
+    "radius": 20,
+    "height": 50
+  }
+}
+
+{
+  "operation": "PartDesign.Pocket",
+  "parameters": {
+    "sketch_plane": "XY",
+    "radius": 15,
+    "depth": 20
+  }
+}
+2025-04-11 17:24:43 | ERROR | 执行失败: 命令解析失败，请重新描述需求
+2025-04-11 17:25:20 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:25:47 | ERROR | 创建凹槽特征失败: <unknown>.Shapes
+2025-04-11 17:25:47 | ERROR | 执行失败: <unknown>.Shapes
+2025-04-11 17:26:56 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:29:17 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:29:48 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:29:59 | INFO | 已创建新的 Part 文档
+2025-04-11 17:29:59 | INFO | 已获取现有的 Body 对象
+2025-04-11 17:30:00 | INFO | 创建圆形草图，半径: 20
+2025-04-11 17:30:00 | INFO | 草图已关闭
+2025-04-11 17:30:00 | INFO | 创建凹槽特征，深度: 10
+2025-04-11 17:30:00 | INFO | 文档已更新
+2025-04-11 17:32:14 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:32:28 | INFO | 已获取 Part 对象
+2025-04-11 17:32:28 | INFO | 已获取现有的 Body 对象
+2025-04-11 17:32:28 | INFO | 创建矩形草图，宽度: 30, 长度: 40
+2025-04-11 17:32:28 | INFO | 草图已关闭
+2025-04-11 17:32:28 | INFO | 创建凹槽特征，深度: 10
+2025-04-11 17:32:28 | INFO | 文档已更新
+2025-04-11 17:32:57 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:33:52 | INFO | 已创建新的 Part 文档
+2025-04-11 17:33:52 | INFO | 已获取现有的 Body 对象
+2025-04-11 17:33:52 | INFO | 创建矩形草图，宽度: 30, 长度: 40
+2025-04-11 17:33:52 | INFO | 草图已关闭
+2025-04-11 17:33:52 | INFO | 创建凹槽特征，深度: 10
+2025-04-11 17:33:52 | INFO | 文档已更新
+2025-04-11 17:35:25 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:35:33 | INFO | 已创建新的 Part 文档
+2025-04-11 17:35:33 | INFO | 已获取现有的 Body 对象
+2025-04-11 17:35:33 | ERROR | 执行失败: 'CATIAOperator' object has no attribute '_create_pad'
+2025-04-11 17:38:21 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:38:32 | INFO | 已获取 Part 对象
+2025-04-11 17:38:32 | INFO | 已获取现有的 Body 对象
+2025-04-11 17:38:32 | ERROR | 执行失败: 未实现的操作: PartDesign.Pedal
+2025-04-11 17:39:27 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:39:49 | ERROR | 创建凹槽特征失败: CreatePoint.X
+2025-04-11 17:39:49 | ERROR | 执行失败: CreatePoint.X
+2025-04-11 17:42:48 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:42:54 | ERROR | 创建凹槽特征失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 17:42:54 | ERROR | 执行失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 17:43:06 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:43:10 | ERROR | 获取Part对象失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:43:10 | ERROR | COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:43:10 | ERROR | 未处理的COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:43:10 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:43:39 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:43:55 | ERROR | 创建凹槽特征失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 17:43:55 | ERROR | 执行失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 17:44:59 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:45:21 | ERROR | 创建凹槽特征失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 17:45:21 | ERROR | 执行失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 17:46:56 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:47:01 | ERROR | 获取Part对象失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:47:01 | ERROR | COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:47:01 | ERROR | 未处理的COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:47:01 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:47:13 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:47:17 | ERROR | 获取Part对象失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:47:17 | ERROR | COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:47:17 | ERROR | 未处理的COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:47:17 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:47:37 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:47:42 | ERROR | 获取Part对象失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:47:42 | ERROR | COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:47:42 | ERROR | 未处理的COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:47:42 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:48:05 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:48:07 | ERROR | 获取Part对象失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:48:07 | ERROR | COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:48:07 | ERROR | 未处理的COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:48:07 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:49:03 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:49:09 | ERROR | 获取Part对象失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:49:09 | ERROR | COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:49:09 | ERROR | 未处理的COM错误: 方法 ActiveDocument 失败
+2025-04-11 17:49:09 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 17:49:36 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:50:21 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:50:50 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:50:58 | ERROR | API返回非标准JSON: {
+  "operation": "PartDesign.Cylinder",
+  "parameters": {
+    "radius": 20,
+    "height": 50
+  }
+}
+
+{
+  "operation": "PartDesign.Pocket",
+  "parameters": {
+    "sketch_plane": "XY",
+    "radius": 15,
+    "depth": 20
+  }
+}
+
+{
+  "operation": "PartDesign.Pocket",
+  "parameters": {
+    "sketch_plane": "XY",
+    "width": 30,
+    "length": 40,
+    "depth": 10
+  }
+}
+2025-04-11 17:50:58 | ERROR | 执行失败: 命令解析失败，请重新描述需求
+2025-04-11 17:51:01 | ERROR | 创建凹槽特征失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 17:51:01 | ERROR | 执行失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 17:51:04 | ERROR | API返回非标准JSON: ```json
+{
+  "operation": "PartDesign.Pocket",
+  "parameters": {
+    "sketch_plane": "XY",
+    "width": 30,
+    "length": 40,
+    "depth": 10
+  }
+}
+```
+2025-04-11 17:51:04 | ERROR | 执行失败: 命令解析失败，请重新描述需求
+2025-04-11 17:52:07 | ERROR | 执行失败: 请输入CATIA相关的建模或设计指令
+2025-04-11 17:52:48 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:53:16 | ERROR | 创建凹槽特征失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 17:53:16 | ERROR | 执行失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 17:53:23 | ERROR | 创建凹槽特征失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 17:53:23 | ERROR | 执行失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 17:53:37 | ERROR | 创建凹槽特征失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 17:53:37 | ERROR | 执行失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 17:53:47 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:53:55 | ERROR | 创建凹槽特征失败: <unknown>.Shapes
+2025-04-11 17:53:55 | ERROR | 执行失败: <unknown>.Shapes
+2025-04-11 17:54:21 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:55:02 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:55:38 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 17:57:40 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 18:04:38 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 18:04:46 | ERROR | 获取Part对象失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 18:04:46 | ERROR | COM错误: 方法 ActiveDocument 失败
+2025-04-11 18:04:46 | ERROR | 未处理的COM错误: 方法 ActiveDocument 失败
+2025-04-11 18:04:46 | ERROR | 执行失败: (-2147352567, '发生意外。', (0, 'CATIAApplication', '方法 ActiveDocument 失败', None, 0, -2147467259), None)
+2025-04-11 18:06:22 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 18:06:33 | ERROR | 创建凹槽特征失败: CreatePoint.X
+2025-04-11 18:06:33 | ERROR | 执行失败: CreatePoint.X
+2025-04-11 18:06:59 | ERROR | API返回非标准JSON: ```json
+{
+  "operation": "Sketcher.Rectangle",
+  "parameters": {
+    "sketch_plane": "XY",
+    "width": 30,
+    "length": 40,
+    "depth": 10
+  }
+}
+```
+2025-04-11 18:06:59 | ERROR | 执行失败: 命令解析失败，请重新描述需求
+2025-04-11 18:07:18 | ERROR | 创建凹槽特征失败: CreatePoint.X
+2025-04-11 18:07:18 | ERROR | 执行失败: CreatePoint.X
+2025-04-11 18:08:47 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 18:08:55 | ERROR | 创建凹槽特征失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 18:08:55 | ERROR | 执行失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 18:09:11 | ERROR | 执行失败: 请输入CATIA相关的建模或设计指令
+2025-04-11 18:10:15 | ERROR | 创建凹槽特征失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 18:10:15 | ERROR | 执行失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 18:11:12 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 18:11:41 | ERROR | 创建凹槽特征失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 18:11:41 | ERROR | 执行失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 18:11:57 | ERROR | 执行失败: 未实现的操作: PartDesign.Cylinder
+2025-04-11 18:12:35 | ERROR | 执行失败: 请输入CATIA相关的建模或设计指令
+2025-04-11 18:12:48 | ERROR | API返回非标准JSON: ```json
+{
+  "operation": "PartDesign.Pocket",
+  "parameters": {
+    "sketch_plane": "XY",
+    "width": 30,
+    "length": 40,
+    "depth": 10
+  }
+}
+```
+2025-04-11 18:12:48 | ERROR | 执行失败: 命令解析失败，请重新描述需求
+2025-04-11 18:12:55 | ERROR | 执行失败: 请输入CATIA相关的建模或设计指令
+2025-04-11 18:13:03 | ERROR | 创建凹槽特征失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 18:13:03 | ERROR | 执行失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 18:17:34 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 18:17:34 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\new_py_catia\canshuhuamoxing.CATPart
+2025-04-11 18:17:34 | INFO | 获取活动文档成功
+2025-04-11 18:25:57 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 18:25:57 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\new_py_catia\canshuhuamoxing.CATPart
+2025-04-11 18:25:57 | INFO | 获取活动文档成功
+2025-04-11 18:29:32 | ERROR | 执行失败: 未实现的操作: PartDesign.SetParameters
+2025-04-11 18:29:35 | ERROR | 创建凹槽特征失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 18:29:35 | ERROR | 执行失败: CreatePoint() takes from 1 to 3 positional arguments but 4 were given
+2025-04-11 19:47:11 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 19:47:11 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\new_py_catia\8_10.CATProduct
+2025-04-11 19:47:11 | ERROR | 打开文件失败: <unknown>.Part
+2025-04-11 19:47:28 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 19:47:29 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\new_py_catia\8_10.CATProduct
+2025-04-11 19:47:29 | ERROR | 打开文件失败: <unknown>.Part
+2025-04-11 19:49:44 | INFO | 已连接到运行中的CATIA实例
+2025-04-11 19:49:44 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\育秧架\卧式\C_8_6\40_40_6.CATPart
+2025-04-11 19:49:44 | INFO | 获取活动文档成功
+2025-04-11 19:49:45 | ERROR | 获取长宽高参数失败: 无法找到长宽高参数
+2025-04-12 11:46:28 | INFO | 已连接到运行中的CATIA实例
+2025-04-12 11:46:33 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\育秧架\卧式\C_8_6\40_40_6.CATPart
+2025-04-12 11:46:33 | INFO | 获取活动文档成功
+2025-04-12 11:46:34 | ERROR | 获取长宽高参数失败: 无法找到长宽高参数
+2025-04-12 11:46:34 | INFO | 已连接到运行中的CATIA实例
+2025-04-12 11:46:34 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\育秧架\卧式\C_8_6\40_40_6.CATPart
+2025-04-12 11:46:34 | INFO | 获取活动文档成功
+2025-04-12 11:46:35 | ERROR | 获取长宽高参数失败: 无法找到长宽高参数
+2025-04-12 11:50:15 | INFO | 已连接到运行中的CATIA实例
+2025-04-12 11:50:16 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\new_py_catia\canshuhuamoxing.CATPart
+2025-04-12 11:50:16 | INFO | 获取活动文档成功
+2025-04-12 11:51:00 | INFO | 已连接到运行中的CATIA实例
+2025-04-12 11:51:00 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\new_py_catia\canshuhuamoxing.CATPart
+2025-04-12 11:51:00 | INFO | 获取活动文档成功
+2025-04-17 20:30:00 | INFO | 已连接到运行中的CATIA实例
+2025-04-17 20:30:04 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\new_py_catia\canshuhuamoxing.CATPart
+2025-04-17 20:30:04 | INFO | 获取活动文档成功
+2025-04-17 20:30:22 | INFO | 已连接到运行中的CATIA实例
+2025-04-17 20:30:22 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\new_py_catia\canshuhuamoxing.CATPart
+2025-04-17 20:30:22 | INFO | 获取活动文档成功
+2025-04-17 20:30:25 | ERROR | 更新长宽高参数失败: 'CATIAOperator' object has no attribute 'get_current_dimension'
+2025-04-17 20:33:35 | INFO | 已连接到运行中的CATIA实例
+2025-04-17 20:33:35 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\new_py_catia\canshuhuamoxing.CATPart
+2025-04-17 20:33:35 | INFO | 获取活动文档成功
+2025-04-17 20:34:25 | INFO | 已连接到运行中的CATIA实例
+2025-04-17 20:34:25 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\new_py_catia\canshuhuamoxing.CATPart
+2025-04-17 20:34:25 | INFO | 获取活动文档成功
+2025-04-17 20:57:23 | INFO | 已连接到运行中的CATIA实例
+2025-04-17 20:57:23 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\new_py_catia\canshuhuamoxing.CATPart
+2025-04-17 20:57:23 | INFO | 获取活动文档成功
+2025-04-17 21:05:29 | INFO | 已连接到运行中的CATIA实例
+2025-04-17 21:05:29 | INFO | 成功打开文件: D:\BachelorD\AR\CATIA_AI\new_py_catia\canshuhuamoxing.CATPart
+2025-04-17 21:05:29 | INFO | 获取活动文档成功
