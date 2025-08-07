@@ -11,7 +11,11 @@
 
 AI驱动的水稻立体育苗参数化建模系统实例视频：
 
-https://github.com/user-attachments/assets/bc2a2724-c107-4c1c-b629-c91551721c5a
+
+
+https://github.com/user-attachments/assets/dc4997be-59f2-4474-a0d8-291c5bf03238
+
+
 
 
 ## 项目结构
@@ -63,5 +67,6 @@ CATIA_AI_fin
    ```bash
    python main0.py
    ```
+
 
 
